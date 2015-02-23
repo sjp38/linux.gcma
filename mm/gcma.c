@@ -907,7 +907,7 @@ int gcma_cleancache_init_fs(size_t pagesize)
 	return pool_id;
 }
 
-int gcma_cleancache_init_shared_fs(char *uuid, size_t pagesize)
+int gcma_cleancache_init_shared_fs(uuid_t *uuid, size_t pagesize)
 {
 	return -1;
 }
